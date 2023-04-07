@@ -42,19 +42,4 @@ public class Scenarios {
     public void after() {
         driver.quit();
     }
-//    public static void main(String[] args) throws InterruptedException {
-//        LoginHelper loginHelper = new LoginHelper();
-//        WebDriver driver = loginHelper.login(Constants.NEU_USERNAME, Constants.NEU_PASSWORD);
-//        Scenario1 scenario1 = new Scenario1();
-//        scenario1.execute(driver);
-//        Scenario2 scenario2 = new Scenario2();
-//        scenario2.execute(driver);
-//        Scenario3 scenario3 = new Scenario3();
-//        scenario3.execute(driver);
-//        Scenario4 scenario4 = new Scenario4();
-//        scenario4.execute(driver);
-//        Scenario5 scenario5 = new Scenario5();
-//        scenario5.execute(driver);
-//
-//    }
 }
